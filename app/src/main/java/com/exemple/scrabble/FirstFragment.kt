@@ -204,8 +204,8 @@ class FirstFragment : Fragment() {
         // checks if the string passed by parameter is empty
         if (str.isEmpty()) {
             val dialog = AlertDialog.Builder(this.context)
-            dialog.setTitle("Alerta!")
-            dialog.setMessage("Nenhum caracter válido inserido!")
+            dialog.setTitle("Alert!")
+            dialog.setMessage("No valid characters entered!")
             dialog.setPositiveButton("OK", null)
             dialog.show()
 
@@ -258,8 +258,8 @@ class FirstFragment : Fragment() {
         // issues an alert that some characters will be disregarded
         if (pattern.matcher(text).find() || numPattern.matcher(text).find()) {
             val dialog = AlertDialog.Builder(this.context)
-            dialog.setTitle("Alerta!")
-            dialog.setMessage("Caracteres inválidos foram desconsiderados!")
+            dialog.setTitle("Alert!")
+            dialog.setMessage("Invalid characters have been disregarded!")
             dialog.setPositiveButton("OK", null)
             dialog.show()
         }
