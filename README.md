@@ -53,9 +53,9 @@ Also, you can use this design as you want, it's free to copy, change and improve
 Native Android design with an adaptive night mode.
 
 <table style="border: none">
-    <td><img src="./design/splash-screen.png" width=200 /></td>
-    <td><img src="./design/first-fragment.png" width=200 /></td>
-    <td><img src="./design/results.png" width=200 /></td>
+    <td><img src="./design/splash-screen.png" width=300 /></td>
+    <td><img src="./design/first-fragment.png" width=300 /></td>
+    <td><img src="./design/results.png" width=300 /></td>
 </table>
 
 ## 📥 How to use
