@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Scrabble</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="ok">OK</string>
+    <string name="previous">Previous</string>
+
+    <string name="intro">Enter the letters available</string>
+
+    <string name="word_hint">Type here!</string>
+
+    <string name="points">%1$d Point Word</string>
+    <string name="rest">Left:</string>
+    <string name="empty" />
+</resources>
