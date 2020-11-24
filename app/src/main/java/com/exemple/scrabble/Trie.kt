@@ -52,7 +52,7 @@ object Trie {
         // dictionary containing all available words
         val dict = arrayOf(
             "pineapple", "herd", "order", "door", "table", "die", "mangoes",
-            "go", "things", "radiography", "math", "drugs", "buildings ",
+            "go", "things", "radiography", "math", "drugs", "buildings",
             "implementation", "computer", "balloon", "cup", "boredom", "banner",
             "book", "leave", "superior", "profession", "meeting", "buildings",
             "mountain", "botany", "bathroom", "boxes", "cursing", "infestation",
@@ -61,8 +61,8 @@ object Trie {
             "hydraulic", "man", "dinner", "games", "assembly", "manual",
             "cloud", "snow", "operation", "yesterday", "duck", "foot", "trip",
             "cheese", "room", "backyard", "loose", "route", "jungle", "tattoo",
-            "tiger", "grape", "last", "reproach", "voltage", "angry",
-            "mockery", "pain"
+            "tiger", "grape", "last", "reproach", "voltage", "angry", "mockery",
+            "pain"
         )
 
         // performs the individual insertion of each word in the tree
