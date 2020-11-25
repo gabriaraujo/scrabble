@@ -63,7 +63,7 @@ Native Android design with an adaptive night mode.
 - Clone this repository: `git clone https://github.com/gabriaraujo/scrabble.git`
 - Open the project and emulate this application using [Android Studio](https://developer.android.com/studio).
 
-- Alternatively, you can download [`app-debug.apk`](https://github.com/gabriaraujo/scrabble/blob/main/build/app-debug.apk) and run the application on 
+- Alternatively, you can download [`app-debug.apk`](https://github.com/gabriaraujo/scrabble/releases/download/v1.0/app-debug.apk) and run the application on 
 your Android device.
 
 ## 🚀 Build With
