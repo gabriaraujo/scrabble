@@ -19,3 +19,12 @@ jobs:
         java-version: 1.8
     - name: Build with Gradle
       run: ./gradlew build
+      
+    - name: Build Debug APK
+      run: bash ./gradlew :app:assembleDebug
+              
+    - name: Upload APK
+      uses: actions/upload-artifact@v2
+      with:
+        name: Scrabble
+        path: ${{ github.workspace }}/build/app-debug.apk
