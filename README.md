@@ -14,7 +14,7 @@ account for the largest number of points.
 ## ♟️ Logic
 The logic of the program is based on going through a [Trie](https://wikipedia.org/wiki/Trie) in search of finding all possible words that can be formed with the 
 characters entered. After all the words have been found, the algorithm goes through a refinement phase, in which the selected words are validated and those that 
-do not respect the frequency of characters are discarded. After this refinement, the point count is made, in which each letter that makes up the word is verified to 
+do not respect the frequency of characters are discarded. After this refinement, the score count is made, in which each letter that makes up the word is verified to 
 assign the final score and after calculating the value of all words, the word with the highest score is returned.
 
 ## 💾 Data
